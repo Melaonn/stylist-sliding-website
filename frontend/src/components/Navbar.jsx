@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Link } from 'react-scroll';
 
+
 export default function Navbar() {
   const rawNavItems = ['home', 'about', 'our work', 'services', 'blog', 'gallery', 'contact'];
 
@@ -55,7 +56,7 @@ export default function Navbar() {
       >
         {/* Desktop & Mobile Nav Container */}
         <div className="bg-white shadow-md rounded-xl px-4 py-3 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-gray-700">BizName</h1>
+          <h1 className="text-2xl font-neurial font-bold text-gray-700">BizName</h1>
 
           {/* Desktop Nav */}
           <div className="space-x-6 hidden md:flex">

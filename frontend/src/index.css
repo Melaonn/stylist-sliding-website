@@ -1,2 +1,17 @@
 @import "tailwindcss";
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('/fonts/neurial-grotesk-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('/fonts/neurial-grotesk-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,3 +1,4 @@
+@import "tailwindcss";
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,20 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('/fonts/neurial-grotesk-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('/fonts/neurial-grotesk-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
