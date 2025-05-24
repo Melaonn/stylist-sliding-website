@@ -1,12 +1,12 @@
-@font-face {
-  font-family: Jost;
-  src: url('../src/assets/fonts/Jost-Regular.ttf');
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 
 @import "tailwindcss";
 
-@theme{
-  --font-doto: Jost, "sans-serif";
+@theme {
+  --font-nigga: "Jost", sans-serif; 
+  --font-lauda: "Lato", sans-serif;
 }
-
 

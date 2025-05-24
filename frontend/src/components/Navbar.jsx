@@ -56,7 +56,7 @@ export default function Navbar() {
       >
         {/* Desktop & Mobile Nav Container */}
         <div className="bg-white shadow-md rounded-xl px-4 py-3 flex justify-between items-center">
-        <h1 className="text-2xl font-doto text-gray-700">BizName</h1>
+        <h1 className="text-2xl font-nigga">ATHER</h1>
 
 
           {/* Desktop Nav */}
@@ -69,7 +69,7 @@ export default function Navbar() {
                 smooth
                 offset={-70}
                 duration={500}
-                className="capitalize cursor-pointer text-gray-700 hover:text-blue-600 transition"
+                className="capitalize cursor-pointer text-gray-700 hover:text-blue-600 transition font-lauda"
               >
                 {label}
               </Link>
@@ -119,7 +119,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               onClick={closeMenu}
-              className="text-3xl font-semibold capitalize cursor-pointer text-gray-700 hover:text-blue-600 transition"
+              className="text-3xl font-semibold capitalize cursor-pointer text-gray-700 hover:text-blue-600 transition font-lauda"
             >
               {label}
             </Link>
