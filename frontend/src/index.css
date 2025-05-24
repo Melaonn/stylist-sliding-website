@@ -1,17 +1,12 @@
+@font-face {
+  font-family: Jost;
+  src: url('../src/assets/fonts/Jost-Regular.ttf');
+}
+
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Neurial Grotesk';
-  src: url('/fonts/neurial-grotesk-bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+@theme{
+  --font-doto: Jost, "sans-serif";
 }
 
-@font-face {
-  font-family: 'Neurial Grotesk';
-  src: url('/fonts/neurial-grotesk-light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
+

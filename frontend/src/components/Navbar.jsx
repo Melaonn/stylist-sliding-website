@@ -56,7 +56,8 @@ export default function Navbar() {
       >
         {/* Desktop & Mobile Nav Container */}
         <div className="bg-white shadow-md rounded-xl px-4 py-3 flex justify-between items-center">
-          <h1 className="text-2xl font-neurial font-bold text-gray-700">BizName</h1>
+        <h1 className="text-2xl font-doto text-gray-700">BizName</h1>
+
 
           {/* Desktop Nav */}
           <div className="space-x-6 hidden md:flex">
