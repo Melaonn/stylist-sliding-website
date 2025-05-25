@@ -52,7 +52,7 @@ export default function StickyGalleryWithFade() {
   }, []);
 
   return (
-    <div>
+    <div id="gallery">
       {sections.map((section, i) => (
         <section
           key={i}

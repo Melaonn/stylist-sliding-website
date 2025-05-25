@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 
 
 @import "tailwindcss";
@@ -8,5 +11,7 @@
 @theme {
   --font-nigga: "Jost", sans-serif; 
   --font-lauda: "Lato", sans-serif;
+  --font-randi: "Host Grotesk", sans-serif;
+  --font-chakka: "PT Sans", sans-serif;
 }
 

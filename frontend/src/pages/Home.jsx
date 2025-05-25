@@ -36,7 +36,8 @@ export default function HomeSlider() {
   }, [activeIndex, isMobile]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div id="home" className="relative w-full h-screen overflow-hidden">
+      
       <Swiper
         modules={[Autoplay, Parallax]}
         speed={1000}
@@ -56,12 +57,13 @@ export default function HomeSlider() {
             />
             {/* Text positioned left top */}
             <div className="absolute left-1 top-1/8 -translate-y-0 max-w-xs md:max-w-md px-4 text-white">
-              <h2 data-swiper-parallax="-300" className="text-3xl md:text-4xl font-bold mb-2">
+              <h2 data-swiper-parallax="-300" className="text-3xl md:text-6xl font-bold mb-2 font-randi">
                 Welcome to Our Innovation
               </h2>
-              <p data-swiper-parallax="-100" className="text-md md:text-lg">
-                We bring ideas to life with cutting-edge tech.
-              </p>
+                <p data-swiper-parallax="-100" className="pt-4 text-md md:text-lg font-chakka">
+                  We bring ideas to life with cutting-edge tech.
+                </p>
+
             </div>
           </div>
         </SwiperSlide>
@@ -76,10 +78,10 @@ export default function HomeSlider() {
             />
             {/* Text positioned left top */}
             <div className="absolute left-1 top-1/8 -translate-y-0 max-w-xs md:max-w-md px-4 text-black">
-              <h2 data-swiper-parallax="-300" className="text-3xl md:text-4xl font-bold mb-2">
+              <h2 data-swiper-parallax="-300" className="text-3xl md:text-6xl font-bold mb-2 font-randi">
                 Your Success Is Our Mission
               </h2>
-              <p data-swiper-parallax="-100" className="text-md md:text-lg">
+              <p data-swiper-parallax="-100" className="pt-4 text-md md:text-lg font-chakka">
                 Join us in shaping the future together.
               </p>
             </div>
@@ -99,7 +101,7 @@ export default function HomeSlider() {
             />
             {/* Text positioned left top */}
             <div className="absolute left-1 top-1/8 -translate-y-0 px-4 text-black">
-              <h2 data-swiper-parallax="-300" className="text-3xl md:text-4xl font-bold">
+              <h2 data-swiper-parallax="-300" className="text-3xl md:text-6xl font-bold font-randi">
                 Dive into Innovation
               </h2>
             </div>
